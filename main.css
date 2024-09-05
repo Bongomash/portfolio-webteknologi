@@ -17,12 +17,6 @@ body {
     margin-top: 45px;
 }
 
-.About-me {
-    display: flex;
-    justify-content: flex-start;
-    height: 100%;
-}
-
 .lister{
     display: flex;
     justify-content: space-around;
@@ -33,6 +27,8 @@ body {
     background-color: #005e80;
     padding: 12px;
     margin: 12px ;
+    border-style: solid;
+    border-color: #ffffff;
     box-shadow:
             8.7px 6.4px 5.5px rgba(0, 0, 0, 0.242),
             15.8px 11.7px 13.1px rgba(0, 0, 0, 0.25),
@@ -47,6 +43,8 @@ body {
     height: 184px;
     padding: 12px;
     margin: 12px ;
+    border-style: solid;
+    border-color: #ffffff;
     box-shadow:
             8.7px 6.4px 5.5px rgba(0, 0, 0, 0.242),
             15.8px 11.7px 13.1px rgba(0, 0, 0, 0.25),
