@@ -8,18 +8,16 @@ body {
     background-size: cover;
 }
 
-.intro {
-    display: flex;
 
-}
 .intro div{
     display: flex;
     margin-top: 45px;
+    justify-content: space-evenly;
 }
 
 .lister{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #resume {
     width: 390px;
@@ -117,5 +115,6 @@ h3 {
 .main-box{
     display: flex;
     justify-content: space-evenly;
-    width: 100%
+    width: 100%;
+    margin-bottom: 120px;
 }
