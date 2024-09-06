@@ -24,6 +24,8 @@ body {
     height: 120px;
     background-color: #005e80;
     padding: 12px;
+    padding-bottom: 53px;
+    padding-top: 30px;
     margin: 12px ;
     border-style: solid;
     border-color: #ffffff;
@@ -41,6 +43,7 @@ body {
     height: 184px;
     padding: 12px;
     margin: 12px ;
+    margin-right: 100px;
     border-style: solid;
     border-color: #ffffff;
     box-shadow:
@@ -118,3 +121,4 @@ h3 {
     width: 100%;
     margin-bottom: 120px;
 }
+
