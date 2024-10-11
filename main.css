@@ -122,3 +122,55 @@ h3 {
     margin-bottom: 120px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between; /* Aligns items in the header */
+    align-items: center; /* Vertically centers items */
+    padding: 10px 20px; /* Optional padding */
+}
+
+#modeToggle {
+    background-color: white; /* White background for the button */
+    color: black; /* Black text color for the button */
+    border: 2px solid #005e80; /* Optional border color */
+    padding: 10px 20px; /* Padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#modeToggle:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
+body.light-mode {
+    background-image: url('https://img.freepik.com/free-vector/elegant-geometric-pattern-grey-backdrop-presentation-vector_1017-45734.jpg'); /* Light mode background */
+    background-color: #f0f0f0; /* Optional background color for light mode */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black; /* Text color for light mode */
+}
+
+/* Ensure other elements also have black text in light mode */
+.light-mode #resume,
+.light-mode .lister div,
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode p,
+.light-mode li,
+.light-mode a,
+.light-mode hr{
+    color: black; /* Explicitly set text color for various elements */
+}
+
+body.light-mode .lister div {
+    background-color: lightgray; /* Change the background color to dark grey */
+    border-color: black;
+}
+body.light-mode #resume {
+    background-color: lightgray; /* Change to light grey or your preferred color */
+    border-color: black; /* Change border to black */
+    color: black; /* Ensure text color is black */
+}
+
